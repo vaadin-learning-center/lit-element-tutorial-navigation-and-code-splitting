@@ -25,11 +25,8 @@ class StatsView extends connect(store)(BaseView) {
   render() {
     return html`
       <style>
-        :host {
+        stats-view {
           display: block;
-        }
-        #chart {
-          margin: 50px auto;
         }
       </style>
 
